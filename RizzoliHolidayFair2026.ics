@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Gachot Studios//Rizzoli Holiday Fair 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:rizzoli-holiday-fair-2026-christine-gachot@gachotstudios.com
+DTSTAMP:20261116T211638Z
+DTSTART:20261202T230000Z
+DTEND:20261203T010000Z
+SUMMARY:Rizzoli Holiday Fair with Christine Gachot
+LOCATION:Rizzoli Bookstore\, 1133 Broadway\, New York\, NY 10010
+DESCRIPTION:Christine Gachot signing The Thought That Counts at the Rizzoli
+  Holiday Fair.\n\nFree admission. Reserve a spot: https://www.eventbrite.c
+ om/e/rizzoli-holiday-book-fair-2026-tickets-2004328355065?aff=oddtdtcreato
+ r\n\nRizzoli Bookstore\, 1133 Broadway\, New York\, NY 10010
+URL:https://www.eventbrite.com/e/rizzoli-holiday-book-fair-2026-tickets-200
+ 4328355065?aff=oddtdtcreator
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rizzoli Holiday Fair with Christine Gachot
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
