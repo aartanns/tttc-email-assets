@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex" />
+  <meta name="format-detection" content="telephone=no,address=no,date=no" />
+  <title>Add to Calendar: Rizzoli Holiday Fair with Christine Gachot</title>
+  <style>
+    :root { color-scheme: light; }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      background: #f0f0e8; color: #2b2b2b;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      -webkit-text-size-adjust: 100%;
+    }
+    .wrap { max-width: 440px; margin: 0 auto; padding: 40px 24px 48px; }
+    .card { background: #fffffe; border-top: 6px solid #8b1813; padding: 36px 28px 32px; text-align: center; }
+    .eyebrow { margin: 0 0 12px; font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: #8b1813; }
+    h1 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-weight: 400; font-size: 27px; line-height: 34px; }
+    .rule { width: 32px; height: 1px; background: #c9c4b6; margin: 22px auto; }
+    .date { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: 20px; line-height: 28px; }
+    .meta { margin: 4px 0 0; font-size: 15px; line-height: 22px; color: #6b6860; }
+    .btn {
+      display: block; margin: 28px 0 0; padding: 16px 20px; background: #8b1813; color: #fffffe;
+      font-size: 13px; letter-spacing: 2px; text-transform: uppercase; text-decoration: none; border-radius: 2px;
+    }
+    .status { margin: 14px 0 0; font-size: 13px; line-height: 19px; color: #6b6860; }
+    .links { margin: 22px 0 0; font-size: 13px; line-height: 20px; color: #6b6860; }
+    .links a { color: #6b6860; text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <p class="eyebrow">Add to calendar</p>
+      <h1>Rizzoli Holiday Fair with Christine&nbsp;Gachot</h1>
+      <div class="rule"></div>
+      <p class="date">Wednesday, December 2, 2026</p>
+      <p class="meta">6:00 to 8:00 PM</p>
+      <p class="meta">Rizzoli Bookstore<br />1133 Broadway, New York</p>
+
+      <a class="btn" id="add" href="https://aartanns.github.io/tttc-email-assets/RizzoliHolidayFair2026.ics">Add to Calendar</a>
+      <p class="status" id="status">Opening your calendar&hellip; If nothing happens, tap the button above.</p>
+
+      <p class="links">
+        <a href="https://www.eventbrite.com/e/rizzoli-holiday-book-fair-2026-tickets-2004328355065?aff=oddtdtcreator">Reserve a spot (free)</a>
+      </p>
+    </div>
+  </div>
+
+  <script>
+    // Open the .ics in this browser tab. On iPhone, Safari then shows the event with "Add to Calendar".
+    // On a computer, the file downloads and opens in Outlook or Apple Calendar.
+    (function () {
+      var ics = document.getElementById('add').href;
+      setTimeout(function () { window.location.href = ics; }, 400);
+    })();
+  </script>
+  <noscript>
+    <style>#status { display: none; }</style>
+  </noscript>
+</body>
+</html>
